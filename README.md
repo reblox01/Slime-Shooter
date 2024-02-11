@@ -18,7 +18,10 @@ The project is opensource and it's public for anyone who wants to edit it or com
   ![image](https://github.com/reblox01/Slime-Shooter/assets/74146687/aea6aac2-025d-432e-b699-d5c9b0914ae6)
 
 ## Preview
-  **[Watch Now!!](https://vimeo.com/912051494)**
+  **Watch Now!! Click on the pic to watch the Gameplay**
+  
+  [![image](https://github.com/reblox01/Slime-Shooter/assets/74146687/dbbc7929-4f7d-4b11-837f-5bb82db65306)
+](https://vimeo.com/912051494)
 
 ## How to Import this Project?
 
