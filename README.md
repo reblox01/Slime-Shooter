@@ -12,9 +12,17 @@
   $ git clone https://github.com/reblox01/Slim-Shooter.git
   ```
 * And now you can find the project on your Desktop
+  
+  ![image](https://github.com/reblox01/Slime-Shooter/assets/74146687/aea6aac2-025d-432e-b699-d5c9b0914ae6)
+
+## Preview
+  https://vimeo.com/912051494
+  <iframe src="https://player.vimeo.com/video/912051494?h=905c92cf58" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/912051494">Slime Shooter - Test Game #1</a> from <a href="https://vimeo.com/aroscki">aroscki</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
 ## How to Import this Project?
 
-* Open **[GoDot Engine 4](https://godotengine.org/download/windows/)**
+* Open **[GoDot Engine 4](https://godotengine.org/download/)**
   
   ![image](https://github.com/reblox01/Slim-Shooter/assets/74146687/89f4a2c3-c743-4170-a5ea-8c10d6aab2c9)
 
