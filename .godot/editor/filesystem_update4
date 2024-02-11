@@ -1,0 +1,6 @@
+res://player.gd
+res://GameOver.gd
+res://game_over.tscn
+res://survivor_game.tscn
+res://survivor_game.gd
+res://player.tscn

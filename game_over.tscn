@@ -1,0 +1,60 @@
+[gd_scene load_steps=3 format=3 uid="uid://bm0etx25q5wir"]
+
+[ext_resource type="Script" path="res://GameOver.gd" id="1_8qoh8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_52qsb"]
+bg_color = Color(0.984314, 0.317647, 0.521569, 1)
+
+[node name="GameOver" type="CanvasLayer"]
+unique_name_in_owner = true
+visible = false
+script = ExtResource("1_8qoh8")
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+color = Color(0, 0, 0, 0.556863)
+
+[node name="Label" type="Label" parent="ColorRect2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -502.0
+offset_top = -120.5
+offset_right = 502.0
+offset_bottom = 120.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 176
+text = "Game Over!"
+
+[node name="Button" type="Button" parent="ColorRect2"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -111.0
+offset_top = 74.0
+offset_right = 199.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.968627, 0.913725, 0, 1)
+theme_override_font_sizes/font_size = 86
+theme_override_styles/hover = SubResource("StyleBoxFlat_52qsb")
+text = "Restart"
+
+[node name="TextureButton" type="TextureButton" parent="ColorRect2"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
