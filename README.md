@@ -16,9 +16,7 @@
   ![image](https://github.com/reblox01/Slime-Shooter/assets/74146687/aea6aac2-025d-432e-b699-d5c9b0914ae6)
 
 ## Preview
-  https://vimeo.com/912051494
-  <iframe src="https://player.vimeo.com/video/912051494?h=905c92cf58" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/912051494">Slime Shooter - Test Game #1</a> from <a href="https://vimeo.com/aroscki">aroscki</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+  **[Watch Now!!](https://vimeo.com/912051494)**
 
 ## How to Import this Project?
 
