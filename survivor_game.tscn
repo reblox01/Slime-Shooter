@@ -7,9 +7,9 @@
 
 [sub_resource type="Curve2D" id="Curve2D_6f6oi"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -1140, -939, 0, 0, 0, 0, 178, -924, 0, 0, 0, 0, 1629, -929, 0, 0, 0, 0, 1624, 745, 0, 0, 0, 0, -1111, 769, 0, 0, 0, 0, 549, 18)
+"points": PackedVector2Array(0, 0, 0, 0, -1140, -939, 0, 0, 0, 0, 178, -924, 0, 0, 0, 0, 1629, -929, 0, 0, 0, 0, 1624, 745, 0, 0, 0, 0, -1111, 769)
 }
-point_count = 6
+point_count = 5
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
