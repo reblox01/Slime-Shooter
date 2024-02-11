@@ -1,4 +1,6 @@
 # Slime Shooter
+* The game is about a character who has a gun and tries to fight slime enemies and tries to do so, and every time the number of enemies increases, the difficulty increases, and the strength of hitting enemies increases for the character.. <br />
+The project is opensource and it's public for anyone who wants to edit it or complete it.
 
 
 ## How to Get this Project?
