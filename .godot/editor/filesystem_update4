@@ -1,3 +1,7 @@
 res://survivor_game.tscn
 res://player.gd
 res://player.tscn
+res://bullet.gd
+res://mob.gd
+res://survivor_game.gd
+res://game_over.tscn

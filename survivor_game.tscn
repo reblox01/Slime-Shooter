@@ -7,9 +7,9 @@
 
 [sub_resource type="Curve2D" id="Curve2D_6f6oi"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -1140, -939, 0, 0, 0, 0, 178, -924, 0, 0, 0, 0, 1629, -929, 0, 0, 0, 0, 1624, 745, 0, 0, 0, 0, -1111, 769)
+"points": PackedVector2Array(0, 0, 0, 0, 178, -924, 0, 0, 0, 0, 1629, -929, 0, 0, 0, 0, 1624, 745, 0, 0, 0, 0, -1111, 769)
 }
-point_count = 5
+point_count = 4
 
 [node name="Game" type="Node2D"]
 y_sort_enabled = true
@@ -20,6 +20,9 @@ script = ExtResource("1_7ohd4")
 layer = -30
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_right = 1.3099
+anchor_bottom = 1.4213
 offset_left = 3.0
 offset_top = 2.0
 offset_right = 2571.0
@@ -27,18 +30,131 @@ offset_bottom = 1526.0
 metadata/_edit_use_anchors_ = true
 
 [node name="Player" parent="." instance=ExtResource("1_p5msg")]
-position = Vector2(-246, 82)
+position = Vector2(1174, 851)
 
 [node name="Path2D" type="Path2D" parent="Player"]
+position = Vector2(-679, 63.0001)
+scale = Vector2(2.22174, 2.33841)
 curve = SubResource("Curve2D_6f6oi")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
 unique_name_in_owner = true
-position = Vector2(-1140, -939)
-rotation = 0.0113804
+position = Vector2(178, -924)
+rotation = -0.00344589
 
 [node name="PineTree" parent="." instance=ExtResource("2_5xky7")]
 position = Vector2(-999, 565)
+
+[node name="PineTree23" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-710, 797)
+
+[node name="PineTree24" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-327, 881)
+
+[node name="PineTree25" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(157, 864)
+
+[node name="PineTree26" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(608, 888)
+
+[node name="PineTree27" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1079, 659)
+
+[node name="PineTree28" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(817, 504)
+
+[node name="PineTree29" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1547, 995)
+
+[node name="PineTree39" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(276, 1367)
+
+[node name="PineTree40" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(869, 1547)
+
+[node name="PineTree41" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-521, 1727)
+
+[node name="PineTree42" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-857, 1337)
+
+[node name="PineTree43" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1882, 1685)
+
+[node name="PineTree55" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1559, 1942)
+
+[node name="PineTree56" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1759, 2199)
+
+[node name="PineTree57" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2672, 2199)
+
+[node name="PineTree58" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-77, 2075)
+
+[node name="PineTree59" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(-77, 1609)
+
+[node name="PineTree44" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2403, 1355)
+
+[node name="PineTree45" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2553, 414)
+
+[node name="PineTree46" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2038, 905)
+
+[node name="PineTree47" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2769, -360)
+
+[node name="PineTree48" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(3003, 719)
+
+[node name="PineTree49" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2290, 0)
+
+[node name="PineTree50" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2104, -306)
+
+[node name="PineTree51" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2240, 537)
+
+[node name="PineTree52" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2879, 1267)
+
+[node name="PineTree53" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(2772, 1550)
+
+[node name="PineTree54" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1567, 1380)
+
+[node name="PineTree30" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1577, 379)
+
+[node name="PineTree31" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1426, -99)
+
+[node name="PineTree32" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1426, -99)
+
+[node name="PineTree33" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1026, -200)
+
+[node name="PineTree34" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1692, -479)
+
+[node name="PineTree35" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(649, -523)
+
+[node name="PineTree36" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(343, -543)
+
+[node name="PineTree37" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1396, -570)
+
+[node name="PineTree38" parent="." instance=ExtResource("2_5xky7")]
+position = Vector2(1090, 179)
 
 [node name="PineTree2" parent="." instance=ExtResource("2_5xky7")]
 position = Vector2(-1214, 113)
@@ -108,6 +224,31 @@ wait_time = 0.3
 autostart = true
 
 [node name="GameOver" parent="." instance=ExtResource("4_32ld2")]
+
+[node name="ColorRect3" type="ColorRect" parent="GameOver"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 4
+color = Color(0, 0, 0, 0.556863)
+
+[node name="Label" type="Label" parent="GameOver/ColorRect3"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -502.0
+offset_top = -120.5
+offset_right = 502.0
+offset_bottom = 120.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 176
+text = "Game Over!"
 
 [connection signal="health_deplated" from="Player" to="." method="_on_player_health_deplated"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
