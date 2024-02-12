@@ -7,11 +7,11 @@ The project is opensource and it's public for anyone who wants to edit it or com
 * Open **Terminal** or **Command Prompt** or **git Bash**
   
   ```sh
-  $ cd Desktop
+  cd Desktop
   # You can change where you want to put the project instead of Desktop
   ```
   ```sh
-  $ git clone https://github.com/reblox01/Slim-Shooter.git
+  git clone https://github.com/reblox01/Slim-Shooter.git
   ```
 * And now you can find the project on your Desktop
   
